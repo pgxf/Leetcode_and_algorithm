@@ -14,9 +14,7 @@
 
 
 
-![jvm_memory_1](/Users/xingfeng/Pictures/图片素材/jvm_memory_1.png)
-
-
+![jvm_memory_1](http://gityuan.com/images/jvm/jvm_memory_1.png)
 
 （1）线程私有区：
 
@@ -38,9 +36,7 @@
 
 运行时内存分为五大块区域（常量池属于方法区，算作一块区域），前面简要介绍了每个区域的功能，那接下来再详细说明每个区域的内容，Java内存总体结构图如下：
 
-![stack_heap_info](/Users/xingfeng/Pictures/图片素材/stack_heap_info.png)
-
-
+![stack_heap_info](http://gityuan.com/images/jvm/stack_heap_info.png)
 
 ### 1.2.1 程序计数器
 
@@ -170,7 +166,7 @@ Java堆，是Java虚拟机管理的最大的一块内存，也是GC的主战场�
 
   　　2.方法区中静态属性引用的对象
 
-  　　3. 方法区中常量引用的对象
+    　　3. 方法区中常量引用的对象
 
   　　4.本地方法栈中引用的对象（Native对象）
 
