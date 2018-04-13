@@ -3,7 +3,7 @@
 ```Java
 public void preOrder(TreeNode root)
 {
-  LinkedList<TreeNode> stack = new LinkedNode<>();
+  Stack<TreeNode> stack = new Stack<>();
   TreeNode node = root;
   while(node!=null || !stack.isEmpty())
   {
@@ -28,7 +28,7 @@ public void preOrder(TreeNode root)
 
 ```Java
 public void inOrder(TreeNode root){
-  LinkedNode<TreeNode> stack = new LinkedNode<>();
+  Stack<TreeNode> stack = new Stack<>();
   TreeNode node = root;
   while(node!=null || !stack.isEmpty()){
     if(node!=null){
