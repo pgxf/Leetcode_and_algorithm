@@ -60,7 +60,8 @@ public void postOrder(TreeNode root){
     if(node.right!=null) s1.push(node.right);
   }
   while(!s2.empty()){
-    System.out.println(s2.value);
+    node = s2.pop()
+    System.out.println(node.value);
   }
 }
 ```
