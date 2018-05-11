@@ -6,7 +6,7 @@ public void levelTrav(TreeNode root){
   TreeNode node = root;
   Queue<TreeNode> queue = new ArrayDeque<>();
   queue.add(node);
-  if(!queue.isEmpty()){
+  while(!queue.isEmpty()){
     node = queue.peek();
     System.out.println(node.value);
     if(node.left!=null) queue.add(node.left);
